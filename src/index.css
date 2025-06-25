@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+.swiper-button-prev,
+.swiper-button-next {
+  transform: scale(0.7);
+  color: white !important;
+  opacity: 0.5;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  opacity: 1;
+}
+.swiper-pagination-bullet {
+  width: 11px !important;
+  height: 11px !important;
+  background: #ffffff !important;
+  opacity: 0.5 !important;
+}
+.swiper-pagination {
+  bottom: 20px !important;
+}
+.swiper-pagination-bullet-active {
+  background: #00a63e !important;
+  opacity: 1 !important;
+}
+
+#scroll-to-top:hover {
+  color: #00a63e !important;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
+}
