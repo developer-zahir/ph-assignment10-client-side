@@ -8,7 +8,6 @@ const MenuLinks = () => {
       <NavLink to="/">Home</NavLink>
       <NavLink to="/all-gardeners">Explore Gardeners</NavLink>
       <NavLink to="/all-tips">Browse Tips</NavLink>
-      <NavLink to="/share-tips">Share Tips</NavLink>
      
     </>
   );
